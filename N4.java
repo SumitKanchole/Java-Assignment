@@ -42,3 +42,14 @@ class DesignCourse extends Course {
         System.out.println("This course covers design using " + tool + ".");
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        ProgrammingCourse pl = new ProgrammingCourse("ITEP", 52, "Java");
+        pl.displayDetail();
+        pl.showContent();
+
+        DesignCourse d1 = new DesignCourse("ITEP", 30, "JavaScript");
+        d1.displayDetail();
+        d1.showContent();
+    }
+}
